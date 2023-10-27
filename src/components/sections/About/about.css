@@ -13,8 +13,7 @@
   width: 20rem;
   height: 21rem;
   border-radius: 50%;
-  
-
+ 
 }
 
 .circle{
@@ -23,12 +22,12 @@
   height: 22rem;
   border-radius: 50%;
   background-color: var(--txt-body-color);
-  z-index: -1;
   display: flex;
   justify-content: center;
   align-items: center;
-  z-index: 1;
+  
 }
+
 
 .about-container h1{
   font-size: 3rem;
