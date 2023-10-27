@@ -1,0 +1,10 @@
+.posts-container{
+  height: 78vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.posts-container{
+  color: var(--txt-body-color);
+  font-size: 2rem;
+}

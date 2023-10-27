@@ -1,0 +1,111 @@
+
+.header-container{
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  height: 5rem;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:0 6rem;
+}
+.header h3 a{
+  color: var(--text-color);
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+.logo__cursor {
+  display: inline-block;
+  width: 12px;
+  height: 1.2rem;
+  background: #fe5186;
+  margin-left: 5px;
+  border-radius: 1px;
+  animation: cursor 1s infinite;
+}
+@keyframes cursor {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.items {
+  display: flex;
+  align-items: center;
+}
+.items ul{
+  display: flex ;
+  align-items: center;
+}
+
+.items li a{
+  font-size: 1.4rem;
+  font-weight: 400;
+  padding:0 .8rem;
+  color: var(--text-color);
+  position: relative;
+}
+.items span{
+  color: var(--text-color);
+  font-size: 1.6rem;
+  padding: 1rem 0 .6rem;
+}
+.hidden{
+  display: none;
+  cursor: pointer;
+}
+.mode-icon{
+  cursor: pointer;
+}
+.items li a:hover::after{
+  content: '';
+  width: 80%;
+  height: 3px;
+  background-color: var(--text-color);
+  position: absolute;
+  bottom: -2px;
+  left: 10%;
+  transition: width 0.3s ease;
+}
+.WithOpacity{
+  opacity: 0.6;
+}
+.NonOpacity{
+  opacity: 1;
+}
+
+
+@media screen and (max-width: 860px) {
+  .header{
+    padding:0 4rem;
+  }
+  .items ul {
+    display: none;
+    background-color: var(--bg-color);
+    flex-direction: column;
+    position: absolute;
+    top: 3.4rem;
+    right: 4rem;
+    height: 8rem;
+    width: 8rem;
+    border-bottom: 4px solid var(--text-color);
+
+  }
+  .items .close{
+    display: none;
+  }
+  .items .open{
+    display: block;
+  }
+  .hidden{ 
+    display: block;
+    margin: 0 1rem;
+  }
+  
+}
