@@ -6,12 +6,14 @@
    align-items: center;
    flex-direction: column;
    color: var(--txt-body-color);
+  
 }
 
 .about-container img{
   width: 20rem;
   height: 21rem;
   border-radius: 50%;
+  
 
 }
 
@@ -25,6 +27,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 1;
 }
 
 .about-container h1{

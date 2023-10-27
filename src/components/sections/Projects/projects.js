@@ -1,6 +1,6 @@
 import './projects.css'
 import { useEffect, useState } from 'react';
-import profile from '../../../assets/imgs/me_v1.jpg';
+import project_img from '../../../assets/imgs/real-estate-agency.png';
 import axios from 'axios';
 
 
@@ -26,7 +26,7 @@ export default function Projects(){
     <div className='projects-container'>
     <section className='project'>
       <div className='project-img'>
-        <img src={profile} alt="project-img"></img>
+        <img src={project_img } alt="project-img"></img>
       </div>
       <div className='project-details'>
         <h2>Real Estate Agency</h2>
@@ -41,7 +41,7 @@ export default function Projects(){
     </section>
     <section className='project'>
       <div className='project-img'>
-        <img src={profile} alt="project-img"></img>
+        <img src={project_img } alt="project-img"></img>
       </div>
       <div className='project-details'>
         <h2>Real Estate Agency</h2>
