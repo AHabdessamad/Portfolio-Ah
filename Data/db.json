@@ -1,18 +1,20 @@
 {
    "projects" :[
     {
-     "title": "Immobilier",
-      "image": "project1.jpg",
+      "id": 1,
+     "title": "Real Estate Agency",
+      "image": "imgs/real-estate-agency.png",
       "description": "Platform of selling and renting real estates",
-      "tools" : "React/NodeJs",
+      "tools": ["Html","CSS","JS"],
        "OnlineLink": "http://reactjs.org",
        "github" : "reactjs"
     },
     {
-      "title": "Immobilier",
-       "image": "project1.jpg",
+      "id": 2,
+      "title": "My Portfolio",
+       "image": "/imgs/portfolio.png",
        "description": "Platform of selling and renting real estates",
-       "tools" : "React/NodeJs",
+       "tools" : ["React", "CSS", "Json"],
         "OnlineLink": "http://reactjs.org",
         "github" : "reactjs"
      }

@@ -42,7 +42,7 @@
 
 .about-section h2{
   text-align: start;
-  text-decoration: 4px underline white;
+  /* text-decoration: 4px underline white; */
   margin :1.5rem 0;
   font-size: 2rem;
   /* font-weight: 800; */

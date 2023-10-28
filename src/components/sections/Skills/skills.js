@@ -4,7 +4,7 @@ import './skills.css'
 export default function Skills(){
   return(
     <div className="skills-container">
-      <span className='title'><Link to={'/'}>home &gt;</Link>skills</span>
+      {/* <span className='title'><Link to={'/'}>home &gt;</Link>skills</span> */}
       <p>“I love programming. It helps me to challenge my limits and learn new technologies and skills in coding every day, which increase my knowledge as a software engineer.“</p>
       <p>These are Technologies that I enjoy working with :</p>
       <section className='frontend'>
