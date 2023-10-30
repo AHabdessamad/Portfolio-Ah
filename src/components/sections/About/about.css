@@ -39,11 +39,14 @@
   text-align: start;
   font-size: 1.5rem;
 }
-
+.about-container p a{
+  color: white;
+  text-decoration: 2px underline white;
+}
 .about-section h2{
   text-align: start;
   /* text-decoration: 4px underline white; */
-  margin :1.5rem 0;
+  margin :2rem 0;
   font-size: 2rem;
   /* font-weight: 800; */
 }

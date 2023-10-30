@@ -45,12 +45,12 @@ export default function Projects(){
               </div>
               <div className='project-details'>
                 <h2>{project.title}</h2>
-                <p> Lorem ipsum dolor sit amet, hkhh jpojj ojpojp ouhijih hoihioconsectetur adip</p>
+                <p> {project.description}</p>
                 <div className='line'></div>
                 <p><span>#{project.tools[0]}</span><span>#{project.tools[1]}</span><span>#{project.tools[2]}</span></p>
                 <div className='links'>
-                  <button className='browse-btn'><a href="#">Visit</a></button>
-                  <button className='github-btn'><a>Github</a></button>
+                  <button className='browse-btn'><a href={project.OnlinLink} target="_blank">Visit</a></button>
+                  <button className='github-btn'><a href={project.github} target="_blank">Github</a></button>
                 </div>
               </div>
             </section>

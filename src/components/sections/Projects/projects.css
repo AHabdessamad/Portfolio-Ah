@@ -16,7 +16,7 @@
 
 .project{
   display: flex;
-  width: 80%;
+  width: 90%;
   height: 20rem;
   /* height: 100%; */
   margin: 1rem auto;
@@ -93,7 +93,10 @@
   bottom: 2rem;
   left: 10rem;
 }
+.github-btn a{
+  color: white;
 
+}
 
 @media screen and (max-width: 1110px) {
   .projects-container{
