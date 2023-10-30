@@ -17,12 +17,41 @@ export default function Projects(){
     // }]
     useEffect(() => {
       // Use an arrow function for handleProjects to avoid issues with 'this'
-      const handleProjects = async () => {
+      const handleProjects = () => {
           try {
-              const resp = await axios.get('http://localhost:3009/projects');
-              const req = resp.data;
-              setProjects(req);
-              console.log('loaded', req); 
+              setProjects({
+   "projects" :[
+                    {
+                      "id": 1,
+                     "title": "Real Estate Agency",
+                      "image": "imgs/real-estate-agency.png",
+                      "description": "Platform of selling and renting real estates",
+                      "tools": ["html-Css-JS","php","MySQL"],
+                       "OnlineLink": "http://reactjs.org",
+                       "github" : "https://github.com/AHabdessamad/Laforain_Immobilier"
+                    },
+                    {
+                      "id": 2,
+                      "title": "My Portfolio",
+                       "image": "/imgs/portfolio.png",
+                       "description": "My Personal Portfolio",
+                       "tools" : ["React", "CSS", "Json-server"],
+                        "OnlineLink": "http://reactjs.org",
+                        "github" : "https://github.com/AHabdessamad/Portfolio-Ah"
+                     },
+                     {
+                      "id": 3,
+                      "title": "Notat",
+                       "image": "/imgs/Notat.png",
+                       "description": "Write your Notes to do efficiently work",
+                       "tools" : ["NodeJs", "MongoDb", "Google-Auth"],
+                        "OnlineLink": "http://reactjs.org",
+                        "github" : "reactjs"
+                     }
+            ]
+
+});
+              
           } catch (err) {
               console.error(err);
           }
