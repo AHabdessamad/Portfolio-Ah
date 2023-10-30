@@ -19,8 +19,7 @@ export default function Projects(){
       // Use an arrow function for handleProjects to avoid issues with 'this'
       const handleProjects = () => {
           try {
-              setProjects({
-   "projects" :[
+              setProjects([
                     {
                       "id": 1,
                      "title": "Real Estate Agency",
@@ -49,8 +48,7 @@ export default function Projects(){
                         "github" : "reactjs"
                      }
             ]
-
-});
+);
               
           } catch (err) {
               console.error(err);
