@@ -21,7 +21,7 @@
      {
       "id": 3,
       "title": "Notat",
-       "image": "/imgs/notat.png",
+       "image": "/imgs/Notat.png",
        "description": "Write your Notes to do efficiently work",
        "tools" : ["NodeJs", "MongoDb", "Google-Auth"],
         "OnlineLink": "http://reactjs.org",
